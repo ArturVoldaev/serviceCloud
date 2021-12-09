@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
-  <title>Document</title>
+  <title>Тестовое задание</title>
 </head>
 <body class="body">
-    
-    <header class="header">
+  <header class="header">
   <div class="conteiner conteiner_logo-nav">
-    <div class="logo">
-      <a href="#"><img src="./image/logo.png" alt="Логотип компании" class="logo__img"></a>
+    <div class="logo logo_header">
+      <a href="#"><img src="./image/logo.svg" alt="Логотип компании" class="logo__img"></a>
     </div>
     <nav class="nav">
       <ul class="nav__list">
@@ -22,9 +21,26 @@
           <ul class="nav__sub-list">
             <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
+              <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
+              <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
+              <a href="" class="nav__sub-link">Решения</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Решения</a>
             </li>
           </ul>
@@ -37,9 +53,17 @@
           <ul class="nav__sub-list">
             <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Помощь</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Помощь</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Помощь</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Помощь</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Помощь</a>
             </li>
           </ul>
@@ -50,9 +74,17 @@
           <ul class="nav__sub-list">
             <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Компания</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Компания</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Компания</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Компания</a>
+            </li>
+            <li class="nav__sub-items">
               <a href="" class="nav__sub-link">Компания</a>
             </li>
           </ul>
@@ -63,22 +95,48 @@
       </ul>
     </nav>
   </div>
-
   <div class="conteiner conteiner_search-and-phone ">
     <svg class="header__search"><use xlink:href='./image/sprites.svg#search'></use></svg>
     <address class="header__contact">8 (800) 555-91-15</address>
+    <div class="header__link-mobile">
+      <a href="#" class="header__link-entry">Вход</a>
+      <a href="#" class="header__link-registration">Регистрация</a>
+    </div>
   </div>
-
-
   <div class="conteiner conteiner_entry">
-    <svg class="header__enter"><use xlink:href='./image/sprites.svg#enter'></use></svg>
+    <a aria-label="Вход" href="#" class="header__entery"><svg class="header__enter"><use xlink:href='./image/sprites.svg#enter'></use></svg></a>
+    <a href="#" class="header__entery header__entery_non-svg">Вход</a>
     <button class="button button_header">Регистрация</button>
   </div>
+  <div class="block">
+    <div class="burger">
+      <span></span>
+    </div>
+    <nav class="menu-burger">
+      <ul class="menu-burger__list">
+        <li class="nav__items">
+          <a href="#" class="nav__links">Решения</a>
+          <svg class="nav__svg"><use xlink:href='./image/sprites.svg#tick'></use></svg>
+        </li>
+        <li class="nav__items">
+          <a href="#" class="nav__links">Тарифы </a></li>
+        <li class="nav__items">
+          <a href="#" class="nav__links">Помощь</a>
+          <svg class="nav__svg"><use xlink:href='./image/sprites.svg#tick'></use></svg>
+        </li>
+        <li class="nav__items">
+          <a href="#" class="nav__links">Компания</a>
+          <svg class="nav__svg"><use xlink:href='./image/sprites.svg#tick'></use></svg>
+        </li>
+        <li class="nav__items">
+          <a href="#" class="nav__links">Партнерам</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
-
-
-    <main class="main">
-      <section class="topic">
+<main class="main">
+  <section class="topic">
   <div class="conteiner conteiner_title">
     <h1 class="title">1С: Зарплата и управление персоналом 8</h1>
     <h2 class="sub-title sub-title_margin">Цена - от 760 ₽ в месяц*</h2>
@@ -92,7 +150,7 @@
     </svg>
   </div>
 </section>
-      <section class="ability">
+  <section class="ability">
   <h3 class="sub-title-less sub-title-less_margin">Основные возможности</h3>
   <div class="conteiner conteiner_ability-list-place">
     <ul class="ability__list ">
@@ -125,7 +183,7 @@
     </ul>
   </div>
 </section>
-      <section class="benefit">
+  <section class="benefit">
   <h3 class="sub-title-less sub-title-less_margin">Преимущества аренды 1С в облаке</h3>
   <div class="conteiner conteiner_benefit-cards">
     <div class="card-advantages">
@@ -166,7 +224,7 @@
           <use xlink:href='./image/sprites.svg#benefit-clock'></use>
         </svg>
       </div>
-      <p class="card-advantages__text">Круглосуточный доступ в 1С</p>
+      <p class="card-advantages__text">Круглосуточный <br>доступ в 1С</p>
     </div>
     <div class="card-advantages">
       <div class="card-advantages__place-icon">
@@ -178,8 +236,8 @@
     </div>
   </div>
 </section>
-      <section class="ask">
-  <h3 class="sub-title-less sub-title-less_margin">Кому подойдет 1С: ЗУП 8?</h3>
+  <section class="ask">
+  <h3 class="sub-title-less sub-title-less_margin sub-title_ask-mobile">Кому подойдет 1С: ЗУП 8?</h3>
   <p class="ask__introduce">В качестве дополнительного функционала данный программный продукт позволяет довести до автоматизма большинство процессов управления персоналом, например, составление планов потребности в новых кадрах, подбор и управление финансовой заинтересованностью персонала, а также автоматизация кадрого учета.</p>
   <div class="tabs">
     <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
@@ -248,25 +306,13 @@
               </svg>
               <p>Предложения по изменению мотивации</p>
             </li>
-            <li>
-              <svg>
-                <use xlink:href='./image/sprites.svg#ask-tick'></use>
-              </svg>
-              <p>Заявки на обучение</p>
-            </li>
-            <li>
-              <svg>
-                <use xlink:href='./image/sprites.svg#ask-tick'></use>
-              </svg>
-              <p>Заявки на подбор</p>
-            </li>
           </ul>
         </div>
       </div>
     </div>
     <div id="content-2">
       <div class="container">
-        <div class="list-property list-property-move">
+        <div class="list-property">
           <h4>Руководство компании</h4>
           <ul>
             <li>
@@ -295,7 +341,7 @@
             </li>
           </ul>
         </div>
-        <div class="list-property">
+        <div class="list-property list-property-move">
           <h4>Руководство подразделений</h4>
           <ul>
             <li>
@@ -456,8 +502,8 @@
 </section>
 
 
-      <section class="comparing">
-  <h3 class="sub-title-less sub-title-less_margin">Сравнение функционала версий ПРОФ и КОРП</h3>
+  <section class="comparing">
+  <h3 class="sub-title-less sub-title-less_margin sub-title_comparing-mobile">Сравнение функционала версий ПРОФ и КОРП</h3>
   <table class="table">
     <tr class="table__row">
       <th class="table__heading">Возможности</th>
@@ -649,7 +695,7 @@
     
   </table>
 </section>
-      <section class="slide">
+  <div class="slide">
   <div class="slider">
     <div class="slider__item">
       <img src="./image/slide1.png" alt="Изображение картинки слайда">
@@ -663,20 +709,39 @@
     <div class="slider__item">
       <img src="./image/slide1.png" alt="Изображение картинки слайда">
     </div>
+    <div class="slider__item">
+      <img src="./image/slide1.png" alt="Изображение картинки слайда">
+    </div>
   </div>
-</section>
-      <section class="form">
-  <h3 class="sub-title-less sub-title-less_margin-extra">Цена на 1С: ЗУП 8 онлайн от <span>760 ₽ в месяц</span></h3>
+</div>
+  <div class="slide-mobile">
+  <div class="slider-mobile">
+    <div class="slider__item">
+      <img src="./image/slide-320px.png" alt="Изображение картинки слайда">
+    </div>
+    <div class="slider__item">
+      <img src="./image/slide-320px.png" alt="Изображение картинки слайда">
+    </div>
+    <div class="slider__item">
+      <img src="./image/slide-320px.png" alt="Изображение картинки слайда">
+    </div>
+    <div class="slider__item">
+      <img src="./image/slide-320px.png" alt="Изображение картинки слайда">
+    </div>
+  </div>
+</div>
+  <section class="form">
+  <h3 class="sub-title-less sub-title-less_margin-extra sub-title_form-mobile">Цена на 1С: ЗУП 8 онлайн<span id="orange">от 760 ₽ в месяц</span></h3>
     <form class="feedback" name="up">
-      <div class="feedback__input-place">
-        <input class="feedback__input feedback__input-fiture" type="text" name="username" placeholder="Имя*">
+      <div class="feedback__input-place" id="form-select">
+        <input class="feedback__input feedback__input-fiture" type="text" name="username" id="username" placeholder="Имя*">
         <div class="special-input">
-          <select class="special-input__select" name="phone">
+          <select aria-label="search" class="special-input__select">
             <option value="7">RU</option>
-            <option value="">US</option>
-            <option value="">UA</option>
+            <option value="1">US</option>
+            <option value="38">UA</option>
           </select>
-          <input class="special-input__input" type="tel" value="+">
+          <input aria-label="search" class="special-input__input" type="tel" value="+ 7">
         </div>
         <input class="feedback__input feedback__input-fiture" type="email" name="email" placeholder="E-mail*" >
       </div> 
@@ -691,7 +756,7 @@
     </form>
 </section>
 
-      <section class="report">
+  <section class="report">
   <h3 class="sub-title-less sub-title-less_margin">С какими отчетами Вы можете работать?</h3>
   <div class="conteiner conteiner_ability-list-place">
     <ul class="ability__list ability__list_report">
@@ -713,11 +778,287 @@
     </ul>
   </div>
 </section>
-    </main>
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script type = text/javascript src="./js/index.js"></script> 
-  <script type = text/javascript src="./js/slick.min.js"></script>
+  <section class="pick-us">
+  <h3 class="sub-title-less sub-title-pick-us">Почему пользователи выбирают Scloud?</h3>
+  <div class="conteiner conteiner_content-place">
+    <div class="conteiner conteiner_us-card-place">
+      <div class="us-card us-card_position">
+        <h4 class="us-card__property">24/7</h4>
+        <p class="us-card__description">круглосуточная техническая поддержка клиентов</p>
+      </div>
+      <div class="us-card us-card_position">
+        <h4 class="us-card__property"> > 32 000</h4>
+        <p class="us-card__description">пользователей доверяют свою 1С нашему сервису</p>
+      </div>
+      <div class="us-card">
+        <h4 class="us-card__property">8 лет</h4>
+        <p class="us-card__description">предоставления доступа к 1С онлайн в России</p>
+      </div>
+      <div class="us-card us-card_mobile-margin">
+        <h4 class="us-card__property">> 200</h4>
+        <p class="us-card__description">высококвалифицированных специалистов в штате</p>
+      </div>
+      <div class="link-tick link-tick_pick-us">
+        <a class="link-tick__link" href="#">Узнать больше о нас</a>
+        <svg class="link-tick__svg">
+          <use xlink:href='./image/sprites.svg#link-tick'></use>
+        </svg>
+      </div>
+    </div>
+    <div class="conteiner conteiner_pick-us-img">
+      <svg class="pick-us__mans">
+        <use xlink:href='./image/sprites.svg#pick-us-svg'></use>
+      </svg>
+    </div>
+  </div>
+</section>
+  <section class="buy-it">
+  <h3 class="sub-title-less sub-title-less_buy-it">Возможно вас заинтересует</h3>
+  <div class="conteiner conteiner_add-cart">
+    <article class="add-cart">
+      <div class="add-cart__heading">
+        <div class="add-cart__img-place add-cart__img-place_book">
+          <img class="add-cart__svg" src="./image/rose.png" alt="Изображение розы">
+        </div>
+        <h4 class="add-cart__title add-cart__title_book">1С: Бухгалтерия ПРОФ/КОРП</h4>
+      </div>
+      <div class="conteiner conteiner_add-cart-text">
+        <p class="add-cart__text">
+          Конфигурация разработана в соответствии с 
+          нормами действующего законодательства.
+          Учет хозяйственной деятельности, заработной 
+          платы,  сдача отчетности в электронном виде.
+        </p>
+        <div class="link-tick link-tick_buy-it">
+          <a class="link-tick__link" href="#">Подробнее</a>
+          <svg class="link-tick__svg">
+            <use xlink:href='./image/sprites.svg#link-tick'></use>
+          </svg>
+        </div>
+      </div>
+    </article>
+    <article class="add-cart">
+      <div class="add-cart__heading">
+        <div class="add-cart__img-place add-cart__img-place_book">
+          <img class="add-cart__svg" src="./image/copybook.png" alt="Изображение книжки">
+        </div>
+        <h4 class="add-cart__title">Информационно-справочная система 1С</h4>
+      </div>
+      <div class="conteiner conteiner_add-cart-text">
+        <p class="add-cart__text">
+          В системе представлены новости, комментарии
+          и консультации по вопросам бухгалтерского, 
+          налогового и кадрового учета, рекомендации
+          по налогообложению, пошаговые инструкции
+          по их отражению в программе.
+        </p>
+        <div class="link-tick link-tick_buy-it">
+          <a class="link-tick__link" href="#">Подробнее</a>
+          <svg class="link-tick__svg">
+            <use xlink:href='./image/sprites.svg#link-tick'></use>
+          </svg>
+        </div>
+      </div>
+    </article>
+    <article class="add-cart">
+      <div class="add-cart__heading">
+        <div class="add-cart__img-place add-cart__img-place_book">
+          <img class="add-cart__svg" src="./image/sheet.png" alt="Изображение листа">
+        </div>
+        <h4 class="add-cart__title add-cart__title_book">1С: Отчетность </h4>
+      </div>
+      <div class="conteiner conteiner_add-cart-text">
+        <p class="add-cart__text">
+          Позволяет сдавать отчётность со своего ПК 
+          прямо из 1С в контролирующие органы: ФНС,
+          ПФР, ФСС, Федеральная служба государственной
+          статистики, Росалкогольрегулирование.
+        </p>
+        <div class="link-tick link-tick_buy-it">
+          <a class="link-tick__link" href="#">Подробнее</a>
+          <svg class="link-tick__svg">
+            <use xlink:href='./image/sprites.svg#link-tick'></use>
+          </svg>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+  <section class="use-now">
+  <h3 class="sub-title-less sub-title-less_margin-extra sub-title_use-now-mobile">Начните пользоваться 1С прямо сейчас</h3>
+  <form class="feedback" name="up">
+    <div class="feedback__input-place">
+      <input class="feedback__input feedback__input-fiture" type="text" name="username" placeholder="Имя*">
+      <div class="special-input" id="down-form-lesect">
+        <select aria-label="code" class="special-input__select" name="phone">
+          <option value="7">RU</option>
+          <option value="1">US</option>
+          <option value="38">UA</option>
+        </select>
+        <input aria-label="code" class="special-input__input" type="tel" value="+ 7">
+      </div>
+      <input class="feedback__input feedback__input-fiture" type="email" name="email" placeholder="E-mail*" >
+    </div> 
+    <label for="username" class="feedback__lable">* Поля обязательные для заполнения</label>
+    <div class="feedback__button-place">
+      <button class="button button_form-size" type="button">Попробовать 14 дней бесплатно</button>
+      <p class="feedback__condition">
+        Начиная работу, я принимаю условия <a href="#">Оферты</a><br>
+        и соглашаюсь на обработку персональных данных в соответствии с <a href="#">Политикой конфиденциальности</a>
+      </p>
+    </div>
+  </form>
+</section>
+</main>
+    <footer class="footer">
+  <nav class="conteiner conteiner_footer_offers">
+    <div class="offers offers_size">
+      <div class="offers__list">
+        <ul class="offers__content">
+          <li class="offers__item"><a class="offers__link" href="#">Типовые решения</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Бухгалтерия ПРОФ/КОРП</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Зарплата и управление персоналом ПРОФ/КОРП</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Комплексная автоматизация</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Управление нашей фирмой</a></li>
+        </ul>
+      </div>
+      <div class="link-tick link-tick_offers">
+        <a class="link-tick__link offers__extra-link" href="#">Показать больше</a>
+        <svg class="link-tick__svg link-tick__svg_rotation">
+          <use xlink:href='./image/sprites.svg#link-tick'></use>
+        </svg>
+      </div>
+    </div>
+    <div class="offers offers_size">
+      <div class="offers__list">
+        <ul class="offers__content">
+          <li class="offers__item"><a class="offers__link" href="#">Отраслевые решения</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: CRM ПРОФ</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Учет в управляющих компаниях ЖКХ, ТСЖ и ЖСК</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Автосервис</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Салон Красоты</a></li>
+        </ul>
+      </div>
+      <div class="link-tick link-tick_offers">
+        <a class="link-tick__link offers__extra-link" href="#">Показать больше</a>
+        <svg class="link-tick__svg link-tick__svg_rotation">
+          <use xlink:href='./image/sprites.svg#link-tick'></use>
+        </svg>
+      </div>
+    </div>
+    <div class="offers offers_size">
+      <div class="offers__list">
+        <ul class="offers__content">
+          <li class="offers__item"><a class="offers__link" href="#">Сервисы</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Контрагент</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1C: СтартЭДО</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С-Отчетность</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1С: Контрагент</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">1СПАРК Риски</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="offers offers_size">
+      <div class="offers__list">
+        <ul class="offers__content">
+          <li class="offers__item"><a class="offers__link" href="#">Доп. возможности</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">ФГИС Меркурий</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">ЕГАИС</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">Клиент-банк</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">Директ-банк</a></li>
+          <li class="offers__item"><a class="offers__link" href="#">Торговое оборудование</a></li>
+        </ul>
+      </div>
+      <div class="link-tick link-tick_offers">
+        <a class="link-tick__link offers__extra-link" href="#">Показать больше</a>
+        <svg class="link-tick__svg link-tick__svg_rotation">
+          <use xlink:href='./image/sprites.svg#link-tick'></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <div class="conteiner conteiner_social">
+    <div class="footer__contact">
+      <div class="logo logo_footer">
+        <a href="#"><img src="./image/logo.svg" alt="Логотип компании" class="logo__img"></a>
+      </div>
+      <div class="conteiner conteiner_company-contact">
+        <ul class="footer__company-contact">
+          <li>8 800 555-91-15</li>
+          <li>+7 (495) 786-59-15</li>
+        </ul>
+        <address class="footer__company-address">111024, г. Москва, ул. Авиамоторная, 69</address>
+        <address class="footer__company-address">300028, г. Тула, ул. Болдина, 98</address>
+      </div>
+    </div>
+    <div class="footer__social">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a aria-label="footer-inst" href="#" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href='./image/sprites.svg#footer-inst'></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a aria-label="footer-fb" href="#" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href='./image/sprites.svg#footer-fb'></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a aria-label="footer-vk" href="#" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href='./image/sprites.svg#footer-vk'></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a aria-label="footer-ok" href="#" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href='./image/sprites.svg#footer-ok'></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a aria-label="footer-yt" href="#" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href='./image/sprites.svg#footer-yt'></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__app">
+        <li class="footer__app-item">
+          <a aria-label="apple-store" href="#" class="footer__app-link">
+            <svg class="footer__app-icon">
+              <use xlink:href='./image/sprites.svg#footer-apple-store'></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__app-item">
+          <a href="#" class="footer__app-link"><img src="./image/banner-google.svg" alt="Логотип интернет-магазина приложений"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteiner conteiner_last-item">
+    <div class="conteiner conteiner_centr">
+      <ul class="footer__rulse">
+        <li class="footer__rulse-items">
+          <a href="#" class="footer__rulse-items-links">Оферта</a>
+        </li>
+        <li class="footer__rulse-items">
+          <a href="#" class="footer__rulse-items-links">Политика конфиденциальности</a>
+        </li>
+      </ul>
+      <a href="#" class="footer__link-company">© 2019 scloud.ru ООО "СервисКлауд"</a>
+    </div>
+  </div>
+</footer>
+  <script crossorigin = "anonymous" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/index.js"></script> 
+  <script src="./js/slick.min.js"></script>
 </body>
 </html>
